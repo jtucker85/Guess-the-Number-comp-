@@ -1,6 +1,5 @@
 import random
 
-
 compnum = random.randint(1,10)
 guessedright = False
 
