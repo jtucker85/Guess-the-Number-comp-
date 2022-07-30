@@ -13,4 +13,7 @@ while guessedright == False:
         print("Wow! You got it!")
         guessedright = True
     else:
-        print("Sorry! Try again")
+        if usint > compnum:
+            print("Too high! Try again")
+        else:
+            print("Too low! Try again")
